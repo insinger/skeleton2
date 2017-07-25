@@ -1,1 +1,1 @@
-A better MEAN stack skeleton app
+Quip training app

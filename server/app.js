@@ -18,6 +18,9 @@ const dbmodels = require('./db'); // dbmodels keys are the sequelize Model objec
 // instantiate HTTP server
 var app = express();
 
+// disable caching for non-static routes
+app.set('etag',false);
+
 // route for serving static files
 app.use(express.static(CLIENT_FOLDER));
 // helps make POST data availabe in req.body

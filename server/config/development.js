@@ -13,7 +13,7 @@ module.exports = {
   HOSTNAME: "localhost",
   PORT: 3000,
 
-  DATABASE_NAME: 'grocer',   // FIXME
+  DATABASE_NAME: 'quipdb',
   MYSQL_USERNAME: 'root',       
   MYSQL_PASSWORD: 'root',       
   MYSQL_HOSTNAME: 'localhost',  

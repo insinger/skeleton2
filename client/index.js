@@ -14,11 +14,10 @@
         vm.crumb="hello";
 		  vm.menuItems = ["Log In","Log Out"];
 		  vm.menuClick=menuClick;
-		  vm.update=update;
 
 		  function menuClick(i) {
 			  console.log("Clicked item",i);
-			  if (i==0) $state.go("XxxState",{reload:true});
+			  if (i==0) $state.go("LoginState",{reload:true});
 			  if (i==1) $state.go("YyyState",{reload:true});
 		  }
 	}
